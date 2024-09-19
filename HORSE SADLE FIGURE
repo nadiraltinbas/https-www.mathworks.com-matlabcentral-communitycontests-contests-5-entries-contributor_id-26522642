@@ -1,0 +1,9 @@
+x = 1:19;
+Y = 9.04*x-0.22222;
+[x,y] = peaks(30);
+z =[(x.^2)-(y.^2)];
+ribbon(z);
+set(gca,'XTick',[], 'YTick', [],'ZTick', [])
+
+
+
